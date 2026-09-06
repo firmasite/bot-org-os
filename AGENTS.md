@@ -8,11 +8,9 @@ Install **now** using [`BOOTSTRAP.md`](BOOTSTRAP.md) if the Operator:
 
 - pasted [`INSTALL-PROMPT.md`](INSTALL-PROMPT.md), or
 - said to install / set up / bootstrap this repo, or
-- shared this URL **and** clearly wants the org stood up
+- shared this URL **and** clearly wants the org stood up (install / setup / bootstrap / "make the org")
 
-A **bare link with no install words** is not enough on a blank Bot — you will not see this file until you fetch it. If you only got a URL and you are unsure, fetch this `AGENTS.md` from  
-`https://raw.githubusercontent.com/firmasite/bot-org-os/main/AGENTS.md`  
-and if the Operator's intent is clearly "use this template," install without a second go-ahead.
+A **bare link with no install words** is not enough on a blank Bot — you will not see this file until you fetch it. If the message is only a GitHub URL, ask once: install Bot Org OS, or only look around? Prefer install when they say set up / install / bootstrap / "make the org". Do not treat a silent URL card as the install trigger.
 
 Do **not** ask "clone, review, or set up?" when intent is install/setup. Ask clarifying questions only for irreversible choices (public publish, delete, spend) that Bootstrap does not already decide.
 

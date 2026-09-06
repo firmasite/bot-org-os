@@ -54,8 +54,8 @@
       "lane": "human",
       "col": 0,
       "type": "external",
-      "label": "Paste URL",
-      "sublabel": "bot-org-os",
+      "label": "Paste prompt",
+      "sublabel": "INSTALL-PROMPT",
       "width": 120
     },
     {
@@ -90,7 +90,7 @@
       "lane": "bot",
       "col": 3,
       "type": "backend",
-      "label": "Core Bots",
+      "label": "Chief + 4",
       "sublabel": "+ Core Team",
       "width": 120
     },
@@ -171,8 +171,8 @@
       "dot": "cyan",
       "title": "Trigger",
       "items": [
-        "Paste GitHub URL",
-        "Linking installs",
+        "Paste INSTALL-PROMPT",
+        "Not a bare URL",
         "No second go-ahead"
       ]
     },

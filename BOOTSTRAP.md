@@ -37,9 +37,11 @@ If the product already has Artifact roots, map these phase names onto them. Docu
 
 ---
 
-## Step 2 — Copy playbooks
+## Step 2 — Copy playbooks and roster
 
 Copy all `$REPO/docs/*.md` into `workspace/org/` (playbooks live there).
+
+Copy `$REPO/roster/` into `workspace/org/roster/` (contracts live there).
 
 Overwrite by filename if updating an existing install.
 
@@ -49,7 +51,7 @@ Overwrite by filename if updating an existing install.
 
 Install every Skill under `$REPO/skills/*/SKILL.md` into the account Skills library (create or **overwrite by name**).
 
-Include the new **`install-from-repo`** Skill so future paste-of-URL installs stay automatic.
+Include the **`install-from-repo`** Skill so later INSTALL-PROMPT / install-intent pastes stay automatic.
 
 Keep YAML frontmatter. Tag earn status later in the live org — porting ≠ earning.
 
@@ -126,13 +128,10 @@ Day-one is a **beginner welcome**. One short message.
 
 | Problem | What to do |
 |---------|------------|
-| **Missing CreateAgent** (or equivalent) | Still **become Chief** (rename + description). Create Skills + copy docs into `workspace/org/` only. Write STATUS naming which specialist Bot steps need Operator taps. Tell Operator clearly. |
+| **Missing CreateAgent** (or equivalent) | Still **become Chief** (rename + description). Create Skills + copy docs and roster into `workspace/org/` only. Write STATUS naming which specialist Bot steps need Operator taps. Tell Operator clearly. |
 | **Rate limits / mid-run stop** | Resume from `workspace/org/INSTALL-STATUS.md` — skip completed rows. |
 | **Cannot fetch repo** | Ask Operator for a workspace path that already has the tree, then continue from Step 1. |
 | **Irreversible choice** (public publish, delete, spend) | Stop and ask; Bootstrap does not auto-approve those. |
-
----
-
 
 ---
 

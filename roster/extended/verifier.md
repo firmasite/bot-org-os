@@ -20,10 +20,15 @@ Producer Artifact + HANDOFF · primary files/logs · Operator-approved sources.
 
 Verification note on the bus + HANDOFF with three gates. Findings return to owner.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Editing the producer work to "make it pass"
 - External side effects
+- Chat-only substantial handoffs
 - Secrets in logs
 
 ## LEARNED

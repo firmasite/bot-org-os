@@ -20,11 +20,16 @@ Operator direction · PRD/SPEC · approved design references the Operator picks.
 
 Design Artifacts on the bus + HANDOFF with three gates.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Impose brand/aesthetics without direction
 - Implementation / production code
 - External side effects
+- Chat-only substantial handoffs
 - Secrets in logs
 
 ## LEARNED

@@ -1,15 +1,16 @@
 # Diagrams
 
-**Source of truth for rendering:** Archify workflow JSON (`*.workflow.json`).
+**GitHub-visible source:** Mermaid in these `*.md` files, and the matching diagrams in the repo README.
 
-Generate HTML:
+**Archify source:** `*.workflow.json`. Keep JSON labels in sync with the Mermaid.
 
-```bash
-sh /workspace/org/diagrams/run-diagram-tool.sh render workflow roster-map.workflow.json roster-map.html --quality standard
-sh /workspace/org/diagrams/run-diagram-tool.sh render workflow install-flow.workflow.json install-flow.html --quality standard
-sh /workspace/org/diagrams/run-diagram-tool.sh render workflow artifact-bus.workflow.json artifact-bus.html --quality standard
-```
+HTML files are Archify previews for local viewing. GitHub does not render them as live diagrams.
 
-(Vendor CLI: `node /workspace/vendor/archify/archify/bin/archify.mjs` — same args.)
+When you change a diagram, update in this order:
 
-Mermaid in the repo README matches these workflows so GitHub can render inline. HTML files are the Archify previews.
+1. the `.md` Mermaid
+2. the matching `.workflow.json`
+3. the README Mermaid if it shows the same picture
+4. re-render HTML if you have Archify
+
+Install flow must show **paste INSTALL-PROMPT**, not a bare GitHub URL, and **Become Chief + four specialists** (do not CreateAgent a Chief).

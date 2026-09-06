@@ -7,7 +7,7 @@ description: >-
 ---
 # Developer story packet
 
-Use this before any Grok Build or Cloud Agent coding task. Prefer wrapping the session in [BMAD build](sand-workflow:bmad-build) when the work is a feature/story/bug.
+Use this before any Grok Build or Cloud Agent coding task.
 
 ## Required packet fields
 1. **Goal** — one sentence outcome
@@ -16,9 +16,9 @@ Use this before any Grok Build or Cloud Agent coding task. Prefer wrapping the s
 4. **Success command** — exact command + expected result
 5. **Answer format** — HANDOFF / Build return shape
 
-Also: story id, acceptance criteria, SPEC/story pointers (`/workspace/bmad/solutioning/specs/...` when present), Build invocation, human-approval flag, three gates on close.
+Also: story id, acceptance criteria, SPEC/story pointers under `workspace/solutioning/` or `workspace/planning/` when present, Build invocation, human-approval flag, three gates on close.
 
-Template: `/workspace/bmad/planning/story-packet-template.md`
+Write the packet as an Artifact under `workspace/planning/` or `workspace/implementation/`.
 
 ## Invoke
 ```
@@ -27,12 +27,12 @@ grok -p --cwd <workdir> --reasoning-effort high "<closed task>"
 One story / one Build session. Ambiguous packet → stop and escalate.
 
 ## Accept
-1. Real diff (`git status` / `git diff`)  
-2. Run success command yourself  
-3. If you wrote part of the code, [Second opinion](sand-workflow:second-opinion) / [BMAD review](sand-workflow:bmad-review)
+1. Real diff (`git status` / `git diff`)
+2. Run success command yourself
+3. If you wrote part of the code, use the **Second opinion** Skill
 
 ## Limits
-One writer at a time · two failed rounds stop · candidate complete ≠ done · no permanent tests unless asked · [Irreversible actions](sand-workflow:irreversible-actions) · [Library docs](sand-workflow:library-docs) before unfamiliar APIs.
+One writer at a time · two failed rounds stop · candidate complete ≠ done · no permanent tests unless asked · **Irreversible actions** Skill · **Library docs** Skill before unfamiliar APIs.
 
 ## After
 HANDOFF with three gates. ACTION_LOG if consequential.
