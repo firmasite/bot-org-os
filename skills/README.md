@@ -28,3 +28,13 @@ Manual:
 | grok-build-execution | Delegating heavy work to `grok -p` |
 
 Adapt paths to your workspace. Strip any private host details if you fork from a private org.
+
+## Ported Claude-style ops (live workflows)
+
+| Skill | When |
+|-------|------|
+| `failure-report` | Broken build / failed command / bad page — four-part format |
+| `library-docs` | Before calling outside packages — fetch real docs |
+| `developer-story-packet` | Closed coding task packet for Developer / Grok Build |
+
+These match `/home/box/agent-data/workflows/` ports. Earn ≠ install.
