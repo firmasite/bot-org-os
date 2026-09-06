@@ -55,21 +55,14 @@ Keep YAML frontmatter. Tag earn status later in the live org — porting ≠ ear
 
 ---
 
-## Step 4 — Create Core Bots
+## Step 4 — Become Chief, then CreateAgent specialists
 
-Create Bots from `$REPO/roster/*.md` **in this order**:
-
-1. Chief — `roster/chief.md`
-2. Analyst — `roster/analyst.md`
-3. Product Manager — `roster/product-manager.md`
-4. Architect — `roster/architect.md`
-5. Developer — `roster/developer.md`
-
-Use **CreateAgent** (or the product's equivalent). Set **name** + **description** from each contract.
+1. **Become Chief** — the installing Bot must become Chief. Rename itself. Set the description from `roster/chief.md` (profile update / equivalent). Do **not** CreateAgent a Chief. Never CreateAgent a second Chief.
+2. **CreateAgent only for Analyst, Product Manager, Architect, Developer.** Use their roster contracts. Set **name** + **description** from each contract.
 
 Do **not** auto-create Extended bots on first install (`roster/extended/` stays documented idle). Wake them only via `docs/BOTTLENECKS.md`.
 
-If a Core Bot already exists with the same name, update its contract rather than duplicating.
+If a specialist already exists with the same name, update its contract. Do not duplicate.
 
 ---
 
@@ -77,7 +70,7 @@ If a Core Bot already exists with the same name, update its contract rather than
 
 Create a group chat/channel named **Core Team** with:
 
-- Chief
+- The installing Bot (now Chief)
 - Analyst
 - Product Manager
 - Architect
@@ -91,7 +84,7 @@ Skip an Extended channel until BOTTLENECKS allows a wake.
 
 Write `workspace/org/INSTALL-STATUS.md` listing:
 
-- Bots created or updated (names)
+- This Bot as Chief (renamed); specialists created or updated (names)
 - Skills installed (names)
 - Artifact / playbook paths chosen
 - Open items (missing tools, Operator taps needed, Extended still idle)
@@ -100,11 +93,12 @@ Write `workspace/org/INSTALL-STATUS.md` listing:
 
 ## Step 7 — Tell the Operator
 
-One short message:
+Day-one is a **beginner welcome**. One short message.
 
-1. Link worked — install finished (or partially finished; see STATUS).
-2. What was created (Core Team + Skills + playbooks path).
-3. Next thin job suggestion (e.g. one closed Artifact + HANDOFF loop before any new Bot or Routine).
+1. What exists: this Bot became Chief; Analyst, Product Manager, Architect, Developer; Skills; playbooks path; Core Team. Link worked — install finished (or partially finished; see STATUS).
+2. One plain question: **what are you trying to get done?**
+
+**Forbidden** as the day-one ask: a routing menu, "what should I route", owner pickers, thin-loop widgets, "suggest next thin job" as a routing prompt. Guide the Operator. Pick owners yourself. Do not dump specialist routing on beginners.
 
 ---
 
@@ -112,7 +106,7 @@ One short message:
 
 | Problem | What to do |
 |---------|------------|
-| **Missing CreateAgent** (or equivalent) | Create Skills + copy docs into `workspace/org/` only. Write STATUS naming which Bot steps need Operator taps. Tell Operator clearly. |
+| **Missing CreateAgent** (or equivalent) | Still **become Chief** (rename + description). Create Skills + copy docs into `workspace/org/` only. Write STATUS naming which specialist Bot steps need Operator taps. Tell Operator clearly. |
 | **Rate limits / mid-run stop** | Resume from `workspace/org/INSTALL-STATUS.md` — skip completed rows. |
 | **Cannot fetch repo** | Ask Operator for a workspace path that already has the tree, then continue from Step 1. |
 | **Irreversible choice** (public publish, delete, spend) | Stop and ask; Bootstrap does not auto-approve those. |
@@ -124,7 +118,7 @@ One short message:
 
 ## Optional tools (not required for install success)
 
-Core success = folders + playbooks + Skills + Core Bots + Core Team + STATUS + Operator note.
+Core success = folders + playbooks + Skills + this Bot as Chief + four specialists + Core Team + STATUS + Operator welcome.
 
 Do **not** block install on these. Operator may add later (see `docs/OPTIONAL-TOOLS.md`):
 
@@ -136,5 +130,5 @@ Do **not** block install on these. Operator may add later (see `docs/OPTIONAL-TO
 ## After install
 
 - Hire only for a recurring, evidenced bottleneck — not because a role name sounds useful. See `docs/BOTTLENECKS.md`.
-- Become or hand off to **Chief**. Never DIY specialist product work when an owner exists.
+- **Become Chief** is the rule. This installing Bot is Chief. Do not treat "hand off to Chief" as an equal default. Do not DIY specialist product work when an owner exists.
 - Routines stay at **0** until a Skill has two clean earn runs.

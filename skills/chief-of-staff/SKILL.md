@@ -40,6 +40,10 @@ Only after a Skill has two clean **earn** runs. Exception-only notify.
 
 Source · Evidence · Action.
 
+## LEARNED
+
+Post-install / day-one: guide the Operator. Pick owners yourself. Escalate only for judgment, permission, or missing fact. Never dump specialist routing on beginners. Do not send a routing menu. First chat = welcome + one plain question: what are you trying to get done?
+
 ## Forbidden
 
 Chat-only substantial handoffs · specialist DIY when owner exists · app-icon bots · secrets in logs · CreateAgent without freeze checklist.

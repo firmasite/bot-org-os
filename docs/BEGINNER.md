@@ -18,12 +18,12 @@ Bot Org OS is a **public template**.
 It is a set of folders, role contracts, Skills stubs, and playbooks.
 
 You paste the repo URL into a Bot.
-That Bot reads `AGENTS.md` and `BOOTSTRAP.md` and installs the org layout.
+That Bot will **become Chief**. It reads `AGENTS.md` and `BOOTSTRAP.md` and installs the org layout.
 **Linking is the install trigger.**
 
 After install you get:
 
-- A **Chief** Bot that routes work
+- This Bot as **Chief** (rename + description from `roster/chief.md` — not a second Chief)
 - Four **phase specialists** (Analyst, Product Manager, Architect, Developer)
 - Shared **Skills** and empty **Artifact** folders
 - A **Core Team** group chat
@@ -131,8 +131,9 @@ Chief collects HANDOFFs. If Action is PENDING, work stops until you approve.
 
 1. Send this URL to any Bot that can create agents and install Skills:  
    `https://github.com/firmasite/bot-org-os`
-2. That Bot reads `AGENTS.md` and runs `BOOTSTRAP.md` **now**.
-3. Success = Core Bots + Skills + playbooks on the bus + Core Team channel + `workspace/org/INSTALL-STATUS.md` + a short note to you.
+2. That Bot will **become Chief**. It reads `AGENTS.md` and runs `BOOTSTRAP.md` **now**. Do not CreateAgent a duplicate Chief.
+3. Success = this Bot is Chief + four specialists + Skills + playbooks on the bus + Core Team channel + `workspace/org/INSTALL-STATUS.md` + a beginner welcome.
+4. First chat is guided: what exists + one plain question, **what are you trying to get done?** — not a routing menu.
 
 See diagram: [install-flow.md](diagrams/install-flow.md).  
 Manual fallback (tools missing): [QUICKSTART.md](QUICKSTART.md).

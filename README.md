@@ -6,15 +6,15 @@ A public template for a Chief + phase specialists Bot organization. For use with
 
 A bare GitHub link is **not** enough. Blank Bots do not open `AGENTS.md` by themselves.
 
-**Copy this whole block** into any new Bot:
+**Copy this whole block** into any new Bot. That Bot will **become Chief**.
 
 ```
 Install Bot Org OS now from https://github.com/firmasite/bot-org-os
 
 Do this without asking what I want (install is the ask):
 1. Fetch AGENTS.md + BOOTSTRAP.md (and roster/, skills/, docs/) via GitHub raw or gh.
-2. Follow BOOTSTRAP.md end-to-end.
-3. Tell me what you created in one short message.
+2. Follow BOOTSTRAP.md end-to-end. Become Chief. Do not CreateAgent a duplicate Chief. CreateAgent only for Analyst, Product Manager, Architect, Developer.
+3. Tell me what you created in one short beginner welcome. Ask: what are you trying to get done? Do not send a routing menu.
 
 Do not ask clone vs review vs setup.
 ```
@@ -57,9 +57,9 @@ flowchart LR
 
 ## How install works
 
-Paste the INSTALL-PROMPT block into a Bot (not a bare link). The Bot fetches AGENTS.md and runs BOOTSTRAP.md — no second go-ahead.
+Paste the INSTALL-PROMPT block into a Bot (not a bare link). That Bot will **become Chief**. It fetches AGENTS.md and runs BOOTSTRAP.md — no second go-ahead. Do not CreateAgent a duplicate Chief.
 
-Bootstrap creates workspace folders, installs Skills, creates Core Bots (Chief → Analyst → Product Manager → Architect → Developer), opens Core Team chat, writes INSTALL-STATUS, then tells you.
+Bootstrap creates workspace folders, installs Skills, CreateAgent only for Analyst → Product Manager → Architect → Developer, opens Core Team chat (installing Bot as Chief + four specialists), writes INSTALL-STATUS, then a beginner welcome: what exists + one plain question, what are you trying to get done? First chat is guided, not a routing menu.
 
 Dashed steps below are branches of the same Bootstrap run. **Optional tools** (dashed) are Operator-chosen after Status — recommend, never require. Extended Bots and Routines are not created on day one.
 
@@ -68,7 +68,7 @@ flowchart LR
   A[Paste INSTALL-PROMPT<br/>bot-org-os] --> B[AGENTS + BOOTSTRAP<br/>install now]
   B -.-> F[workspace/<br/>phase folders]
   B -.-> S[Skills<br/>library]
-  B --> C[Core Bots<br/>+ Core Team]
+  B --> C[Chief + 4 specialists<br/>+ Core Team]
   F -.-> I[INSTALL-STATUS<br/>then tell Operator]
   S -.-> I
   C --> I
