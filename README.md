@@ -4,8 +4,6 @@ A public template for a Chief + phase specialists Bot organization. For use with
 
 ## Install (one paste)
 
-A bare GitHub link is **not** enough. Blank Bots do not open `AGENTS.md` by themselves.
-
 **Copy this whole block** into any new Bot. That Bot will **become Chief**.
 
 ```
