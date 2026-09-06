@@ -1,6 +1,6 @@
 # BOOTSTRAP — install Bot Org OS
 
-Executable install runbook. A Bot that receives this repo URL (or tree) runs these steps **now**. Linking is the install trigger; do not ask "want me to install?"
+Executable install runbook. When the Operator asks to install/setup/bootstrap Bot Org OS (see INSTALL-PROMPT.md), run these steps **now**. Do not ask "want me to install?" or "clone vs review vs setup?".
 
 ---
 
