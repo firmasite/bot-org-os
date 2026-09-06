@@ -33,7 +33,7 @@ Create (or map to the account's real Artifact roots):
 workspace/{org,analysis,planning,solutioning,implementation,handoffs}/
 ```
 
-If the product already has Artifact roots, map these phase names onto them. Document the **chosen live paths** in STATUS (Step 6).
+If the product already has Artifact roots, map these phase names onto them. Document the **chosen live paths** in STATUS (Step 7).
 
 ---
 
@@ -80,7 +80,25 @@ Skip an Extended channel until BOTTLENECKS allows a wake.
 
 ---
 
-## Step 6 — Write STATUS
+## Step 6 — Orient Core Team
+
+Right after the channel exists, Chief briefs every specialist on how the org works.
+
+1. **Post into Core Team** a short working-system brief covering:
+   - Who is Chief vs who owns each phase (Analyst → analysis, Product Manager → planning, Architect → solutioning, Developer → implementation)
+   - Chat is control; files are the bus (`workspace/{analysis,planning,solutioning,implementation,handoffs,org}/`)
+   - Close rule: Artifact path + HANDOFF + three gates (Source / Evidence / Action). No chat-only substantial handoffs
+   - Contracts at `workspace/org/roster/`; playbooks at `workspace/org/` (start: `BUS-RULE.md`, `ARTIFACTS.md`, `BOTTLENECKS.md`)
+   - Stay in JOB; escalate to Chief for judgment, permission, or missing fact; wait for routed work — do not invent jobs
+   - No new Bots/Routines except via BOTTLENECKS / earn rules; Extended stays idle
+2. **Also SendToAgent each specialist 1:1** with the same brief (or a one-line pointer + ask for ack). Group posts alone are not enough — specialists must get a direct wake.
+3. Ask each to ack with name + one line they will follow Artifact+HANDOFF. Do not wait forever; note missing acks in STATUS and move to Operator welcome.
+
+Do this **before** the Operator day-one welcome so the roster is warm when the first job lands.
+
+---
+
+## Step 7 — Write STATUS
 
 Write `workspace/org/INSTALL-STATUS.md` listing:
 
@@ -91,12 +109,13 @@ Write `workspace/org/INSTALL-STATUS.md` listing:
 
 ---
 
-## Step 7 — Tell the Operator
+## Step 8 — Tell the Operator
 
 Day-one is a **beginner welcome**. One short message.
 
 1. What exists: this Bot became Chief; Analyst, Product Manager, Architect, Developer; Skills; playbooks path; Core Team. Link worked — install finished (or partially finished; see STATUS).
 2. One plain question: **what are you trying to get done?**
+3. Soft tip (one short line, not a menu): suggest the Operator pin Chief: Right-click **Chief** in the Grok Bot sidebar → **Pin**.
 
 **Forbidden** as the day-one ask: a routing menu, "what should I route", owner pickers, thin-loop widgets, "suggest next thin job" as a routing prompt. Guide the Operator. Pick owners yourself. Do not dump specialist routing on beginners.
 
@@ -118,7 +137,7 @@ Day-one is a **beginner welcome**. One short message.
 
 ## Optional tools (not required for install success)
 
-Core success = folders + playbooks + Skills + this Bot as Chief + four specialists + Core Team + STATUS + Operator welcome.
+Core success = folders + playbooks + Skills + this Bot as Chief + four specialists + Core Team + Core Team orientation (channel + 1:1) + STATUS + Operator welcome.
 
 Do **not** block install on these. Operator may add later (see `docs/OPTIONAL-TOOLS.md`):
 

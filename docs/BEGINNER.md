@@ -184,3 +184,7 @@ Full checklist: [OPTIONAL-TOOLS.md](OPTIONAL-TOOLS.md).
 | Shared-computer limits | [SHARED-COMPUTER.md](SHARED-COMPUTER.md) |
 | When to hire | [BOTTLENECKS.md](BOTTLENECKS.md) |
 | Five primitives table | [PRIMITIVES.md](PRIMITIVES.md) |
+
+## Pin Chief
+
+After install, Chief should tip the Operator: Right-click **Chief** in the Grok Bot sidebar → **Pin**.
