@@ -8,7 +8,7 @@ Send this URL to any Bot that can create agents and install Skills:
 
 `https://github.com/firmasite/bot-org-os`
 
-That Bot will **become Chief**. It reads [`AGENTS.md`](../AGENTS.md) and runs [`BOOTSTRAP.md`](../BOOTSTRAP.md). Linking is the install trigger. Do not CreateAgent a duplicate Chief. Success = this Bot is Chief, four specialists, Skills, playbooks on the bus, Core Team channel, `workspace/org/INSTALL-STATUS.md`, and a beginner welcome (what exists + what are you trying to get done?).
+That Bot will **become Chief**. It reads [`AGENTS.md`](../AGENTS.md) and runs [`BOOTSTRAP.md`](../BOOTSTRAP.md). Linking is the install trigger. Do not CreateAgent a duplicate Chief. Success = this Bot is Chief, four specialists, Skills, playbooks on the bus, Core Team channel, `workspace/org/INSTALL-STATUS.md`, and a beginner welcome (Chief introduces themself + what exists + Pin tip).
 
 Use the manual steps below **only if** Bootstrap tools are missing (no CreateAgent, no Skills library access, or cannot fetch the repo).
 
