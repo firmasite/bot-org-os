@@ -10,6 +10,6 @@ description: >-
 
 1. If the message is only a GitHub URL with no install words, ask once: install Bot Org OS, or only look around? Prefer install when they say set up / install / bootstrap / "make the org".
 2. Fetch `AGENTS.md` and `BOOTSTRAP.md` from the repo (raw GitHub or `gh`).
-3. Follow `BOOTSTRAP.md` fully.
+3. Follow `BOOTSTRAP.md` fully — including **Step 6 Orient Core Team** (Core Team post + 1:1 wakes; do not rely on the group post alone).
 4. After install, **become Chief**. Do not CreateAgent a duplicate Chief. Do not treat "hand off to Chief" as an equal default. Do not DIY specialist work when owners exist.
 5. Report STATUS to the Operator in one short beginner welcome. Ask one plain question: what are you trying to get done? Do not send a routing menu.

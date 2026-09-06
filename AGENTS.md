@@ -16,7 +16,7 @@ and if the Operator's intent is clearly "use this template," install without a s
 
 Do **not** ask "clone, review, or set up?" when intent is install/setup. Ask clarifying questions only for irreversible choices (public publish, delete, spend) that Bootstrap does not already decide.
 
-**Success** = this Bot **became Chief** (do not CreateAgent a duplicate Chief), CreateAgent only for Analyst, Product Manager, Architect, Developer (or update them), Skills installed, org playbooks on the Artifacts bus, Core Team channel (or equivalent), STATUS written, Operator told what exists.
+**Success** = this Bot **became Chief** (do not CreateAgent a duplicate Chief), CreateAgent only for Analyst, Product Manager, Architect, Developer (or update them), Skills installed, org playbooks on the Artifacts bus, Core Team channel (or equivalent), Core Team orientation (channel brief + 1:1 wakes), STATUS written, Operator told what exists (incl. right-click Chief → Pin tip).
 
 ## Quick pointers
 
