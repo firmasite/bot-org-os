@@ -1,0 +1,38 @@
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+**/credentials*
+**/auth.json
+*cookie*
+*token*
+
+# Editor / IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Python / node scratch
+__pycache__/
+node_modules/
+.venv/
+venv/
+
+# Keep phase folders; ignore live Artifact dumps
+workspace/**
+!workspace/**/
+!workspace/**/.gitkeep
+!workspace/README.md
