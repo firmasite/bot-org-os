@@ -67,6 +67,18 @@ See diagram: [roster-map.md](diagrams/roster-map.md).
 
 ---
 
+## How Bots talk to you
+
+All Bots use **ASD-STE100 simplified English** (or similar) when they talk to you.
+
+- Short clear sentences
+- Lead with the answer
+- Exact paths and commands
+
+See [STE-VOICE.md](STE-VOICE.md).
+
+---
+
 ## Skills vs one-shots vs Routines
 
 These are three kinds of **prompts**:

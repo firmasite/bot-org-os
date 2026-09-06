@@ -19,6 +19,10 @@ Operator · SPEC / story packet · `workspace/implementation/` · repo under all
 
 `workspace/implementation/` packets + code changes + HANDOFF with three gates.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Rewriting PRD

@@ -19,6 +19,10 @@ Operator packet · bus Artifacts · public web / approved connectors · prior re
 
 `workspace/analysis/<slug>/` Artifacts + HANDOFF with three gates. Chief collects.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - PRD / architecture / production code

@@ -22,6 +22,10 @@ Operator · this contract · Artifacts on the bus · authorized tools/connectors
 
 Closed loop: owner → Artifact + HANDOFF → collect. Decision only if required. ACTION_LOG append when consequential.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Specialist work when an owner exists (see docs/CHIEF-REFUSE.md)
