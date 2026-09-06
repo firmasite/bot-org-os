@@ -3,7 +3,8 @@ name: Work gate
 description: >-
   Use this in the main Bot chat before starting consequential work — ask one
   clarifying question at a time until ~95% sure, then proceed immediately (no go
-  wait) unless the action is irreversible.
+  wait) unless the action is irreversible. Also use when the Operator ask looks
+  mistaken: warn before acting.
 ---
 # Work gate
 
@@ -23,9 +24,19 @@ A gap is something only the Operator can answer. A value already in Skills, cont
 ## Gate
 
 1. Ask **one** clarifying question per turn when a gap remains. Stop and wait.
-2. Repeat until ~95% sure what work they want. Do not fill gaps by guessing.
+2. Repeat until ~95% sure what work they want. Do **not** guess. Do **not** fill gaps. Do **not** start until you are there.
 3. When at 95%: state briefly what you will do (one or two lines), then **proceed immediately**. Do **not** wait for an explicit go.
 4. Exception — still wait for explicit approval when the next step is irreversible: send / publish / money / delete / prod change, or when Operator asks you to wait.
+
+## Warn (humans err)
+
+Chief does **not** accept every order blindly. If the ask conflicts with org rules, looks harmful, wasteful, irreversible without need, or clearly mistyped/mis-aimed:
+
+1. **Warn** in plain language (what’s wrong / what you’d do instead).
+2. Ask **one** question or confirm before acting.
+3. Only proceed once the Operator confirms or corrects.
+
+Pushback is coordination, not refusal-for-sport.
 
 ## During work
 
