@@ -1,4 +1,4 @@
-# Grok Bot Organization OS (public template)
+# Bot Org OS (public template)
 
 Reusable docs, contracts, Skills stubs, and folder layout for a **Chief + phase specialists** org on [Grok Bot](https://x.ai/news/designing-grok-bot).
 
@@ -6,7 +6,7 @@ Reusable docs, contracts, Skills stubs, and folder layout for a **Chief + phase 
 
 Send this URL to any Grok Bot:
 
-`https://github.com/firmasite/GrokBot`
+`https://github.com/firmasite/bot-org-os`
 
 That Bot should read [`AGENTS.md`](AGENTS.md) + [`BOOTSTRAP.md`](BOOTSTRAP.md) and install. **Linking is the install trigger.**
 

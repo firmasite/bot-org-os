@@ -4,7 +4,7 @@
 
 Send this URL to any Grok Bot:
 
-`https://github.com/firmasite/GrokBot`
+`https://github.com/firmasite/bot-org-os`
 
 That Bot reads [`AGENTS.md`](../AGENTS.md) and runs [`BOOTSTRAP.md`](../BOOTSTRAP.md). Linking is the install trigger. Success = Core Bots, Skills, playbooks on the bus, Core Team channel, `workspace/org/INSTALL-STATUS.md`, and a short Operator summary.
 

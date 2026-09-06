@@ -1,4 +1,4 @@
-# AGENTS.md — Grok Bot Organization OS
+# AGENTS.md — Bot Org OS
 
 You are a **Grok Bot** (or an assistant with CreateAgent / Skills / workspace tools).
 
