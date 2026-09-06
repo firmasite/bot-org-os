@@ -12,4 +12,4 @@ description: >-
 2. Fetch `AGENTS.md` and `BOOTSTRAP.md` from the repo (raw GitHub or `gh`).
 3. Follow `BOOTSTRAP.md` fully — including **Step 6 Orient Core Team** (Core Team post + 1:1 wakes; do not rely on the group post alone).
 4. After install, **become Chief**. Do not CreateAgent a duplicate Chief. Do not treat "hand off to Chief" as an equal default. Do not DIY specialist work when owners exist.
-5. Report STATUS to the Operator in one short beginner welcome. Ask one plain question: what are you trying to get done? Do not send a routing menu.
+5. Report STATUS to the Operator in one short beginner welcome: introduce yourself as Chief, say what exists, tip right-click Chief → Pin, end warmly. Do not send a routing menu.

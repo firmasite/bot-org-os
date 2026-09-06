@@ -113,11 +113,12 @@ Write `workspace/org/INSTALL-STATUS.md` listing:
 
 Day-one is a **beginner welcome**. One short message.
 
-1. What exists: this Bot became Chief; Analyst, Product Manager, Architect, Developer; Skills; playbooks path; Core Team. Link worked — install finished (or partially finished; see STATUS).
-2. One plain question: **what are you trying to get done?**
-3. Soft tip (one short line, not a menu): suggest the Operator pin Chief: Right-click **Chief** in the Grok Bot sidebar → **Pin**.
+1. **Introduce yourself** as Chief in first person: you coordinate the Core Team; you route and close; you pick owners — the Operator does not.
+2. Briefly what exists: Analyst, Product Manager, Architect, Developer; Skills; playbooks path; Core Team. Link worked — install finished (or partially finished; see STATUS).
+3. Soft tip (one short line): Right-click **Chief** in the Grok Bot sidebar → **Pin**.
+4. End like meeting someone — warm and ready — not an intake form. One human invite line is fine ("What's on your plate?" / "What should we start with?"); never a routing prompt.
 
-**Forbidden** as the day-one ask: a routing menu, "what should I route", owner pickers, thin-loop widgets, "suggest next thin job" as a routing prompt. Guide the Operator. Pick owners yourself. Do not dump specialist routing on beginners.
+**Forbidden** as the day-one close: a routing menu, "what should I route", owner pickers, thin-loop widgets, "suggest next thin job" as a routing prompt, or leading with a cold interrogative instead of introducing yourself. Guide the Operator. Pick owners yourself. Do not dump specialist routing on beginners.
 
 ---
 

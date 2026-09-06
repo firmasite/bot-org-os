@@ -133,7 +133,7 @@ Chief collects HANDOFFs. If Action is PENDING, work stops until you approve.
    `https://github.com/firmasite/bot-org-os`
 2. That Bot will **become Chief**. It reads `AGENTS.md` and runs `BOOTSTRAP.md` **now**. Do not CreateAgent a duplicate Chief.
 3. Success = this Bot is Chief + four specialists + Skills + playbooks on the bus + Core Team channel + `workspace/org/INSTALL-STATUS.md` + a beginner welcome.
-4. First chat is guided: what exists + one plain question, **what are you trying to get done?** — not a routing menu.
+4. First chat is guided: introduce yourself as Chief, what exists, Pin tip, warm close — not a routing menu.
 
 See diagram: [install-flow.md](diagrams/install-flow.md).  
 Manual fallback (tools missing): [QUICKSTART.md](QUICKSTART.md).
