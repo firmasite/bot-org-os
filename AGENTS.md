@@ -12,7 +12,7 @@ Do **not** wait for a second go-ahead. Ask clarifying questions only for irrever
 
 | Need | File |
 |------|------|
-| Beginner guide | [`docs/BEGINNER.md`](docs/BEGINNER.md) |
+| Landing (humans) | [`README.md`](README.md) |
 | Install runbook | [`BOOTSTRAP.md`](BOOTSTRAP.md) |
 | Paste-to-install Skill | [`skills/install-from-repo/SKILL.md`](skills/install-from-repo/SKILL.md) |
 | Role contracts | [`roster/`](roster/) |
