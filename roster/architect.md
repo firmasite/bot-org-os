@@ -19,6 +19,10 @@ Operator · PRD/stories · research packs · `workspace/solutioning/` · authori
 
 `workspace/solutioning/` Artifacts (e.g. ARCHITECTURE + SPEC) + HANDOFF with three gates.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Production coding / deploys

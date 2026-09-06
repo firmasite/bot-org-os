@@ -18,6 +18,10 @@ Operator · Analyst research · this contract · `workspace/planning/` · org pl
 
 `workspace/planning/` Artifacts + HANDOFF with three gates.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Deep architecture authorship

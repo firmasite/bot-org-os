@@ -18,6 +18,7 @@ Chief runs this once after Core Team is created (BOOTSTRAP Step 6).
 - Close = Artifact + HANDOFF + three gates
 - Contracts: `workspace/org/roster/`; playbooks: `workspace/org/`
 - Wait for routed work; Extended idle; no invent-jobs
+- Operator-facing voice: ASD-STE100 / simplified English (see `STE-VOICE.md`)
 - First Core Team message = self-intro (name + phase + Artifact+HANDOFF)
 
 ## After orientation (Operator tip)
