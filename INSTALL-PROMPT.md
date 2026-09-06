@@ -1,4 +1,4 @@
-# Install prompt (copy all of this)
+# Install prompt
 
 Paste the block below to any new Bot. That Bot will **become Chief**. 
 
