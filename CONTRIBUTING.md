@@ -9,7 +9,7 @@ Thanks for improving **Bot Org OS** (`bot-org-os`), this public template.
 3. **Short STE-like English.** Prefer short sentences and tables.
 4. **Docs + stubs only.** This is not a runnable app server.
 5. **MIT.** By contributing you agree your changes are MIT-licensed.
-6. **Linking installs.** Keep `AGENTS.md` + `BOOTSTRAP.md` accurate so pasting the repo URL remains a valid install order.
+6. **Paste-prompt installs.** Keep `AGENTS.md` + `BOOTSTRAP.md` + `INSTALL-PROMPT.md` accurate so pasting INSTALL-PROMPT remains a valid install order. A bare GitHub URL is not enough.
 7. **Hire policy language.** Prefer: hire only for a recurring, evidenced bottleneck — not because a role name sounds useful. Avoid third-party attribution name-drops.
 
 ## How to change things

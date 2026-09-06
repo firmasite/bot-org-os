@@ -2,7 +2,7 @@
 
 Core Bots (always on) and Extended (idle until BOTTLENECKS allows).
 
-Bootstrap creates Core from these files in order: Chief → Analyst → Product Manager → Architect → Developer. Extended stays idle on first install.
+Bootstrap: the installing Bot **becomes Chief** (do not CreateAgent a Chief), then CreateAgent Analyst → Product Manager → Architect → Developer. Extended stays idle on first install.
 
 | File | Role |
 |------|------|

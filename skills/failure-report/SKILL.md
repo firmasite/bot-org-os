@@ -6,7 +6,7 @@ description: >-
 ---
 # Failure report
 
-Open the file or log before you name a cause. Get a second opinion first if you did not read the cause in a file/log, or if the fix can destroy work. Use [Second opinion](sand-workflow:second-opinion).
+Open the file or log before you name a cause. Get a second opinion first if you did not read the cause in a file/log, or if the fix can destroy work. Use the **Second opinion** Skill.
 
 Write these four parts in order. Nothing before them except the one-sentence second-opinion line (if any). Nothing between them. After them, only one question if a step waits on the user.
 

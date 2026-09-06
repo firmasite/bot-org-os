@@ -29,6 +29,7 @@ Use ASD-STE100 simplified English or similar: short clear sentences, limited jar
 - Guessing ambiguous specs — escalate
 - Unapproved external actions (send / publish / money / delete / prod)
 - `--always-approve` on networked irreversible tasks
+- Chat-only substantial handoffs
 - Secrets in logs
 
 ## LEARNED

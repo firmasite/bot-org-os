@@ -4,7 +4,7 @@ Each folder is a Skill stub: `SKILL.md` with YAML frontmatter `name` + `descript
 
 ## Install
 
-**Preferred:** paste `https://github.com/firmasite/bot-org-os` into any Bot — Bootstrap installs every Skill (including `install-from-repo`).
+**Preferred:** paste [`INSTALL-PROMPT.md`](../INSTALL-PROMPT.md) into any new Bot — Bootstrap installs every Skill (including `install-from-repo`). A bare GitHub URL is not enough.
 
 Manual:
 
@@ -17,7 +17,7 @@ Manual:
 
 | Skill | Use when |
 |-------|----------|
-| install-from-repo | Operator pastes this org repo URL — run BOOTSTRAP.md |
+| install-from-repo | Operator pastes INSTALL-PROMPT or asks to install — run BOOTSTRAP.md |
 | chief-of-staff | Coordinating as Chief |
 | work-gate | Starting consequential work with Operator |
 | chief-phase-skip | Routing / skipping optional phase steps |
@@ -37,4 +37,4 @@ Adapt paths to your workspace. Strip any private host details if you fork from a
 | `library-docs` | Before calling outside packages — fetch real docs |
 | `developer-story-packet` | Closed coding task packet for Developer / Grok Build |
 
-These match `/home/box/agent-data/workflows/` ports. Earn ≠ install.
+These are public stubs for common ops workflows. Earn ≠ install.

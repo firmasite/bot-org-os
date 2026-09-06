@@ -1,15 +1,15 @@
-# Install flow — paste URL → Bootstrap → Bots / Skills / folders
+# Install flow — paste INSTALL-PROMPT → Bootstrap → Chief + specialists
 
-Linking the repo is the install trigger.
+Pasting [`INSTALL-PROMPT.md`](../../INSTALL-PROMPT.md) is the install trigger. A bare GitHub URL is not enough.
 
 ```mermaid
 flowchart LR
-  A[Paste repo URL<br/>into a Bot] --> B[Read AGENTS.md]
+  A[Paste INSTALL-PROMPT<br/>into a Bot] --> B[Read AGENTS.md]
   B --> C[Run BOOTSTRAP.md]
   C --> D[Create workspace folders]
-  C --> E[Copy playbooks to org/]
+  C --> E[Copy playbooks + roster]
   C --> F[Install Skills]
-  C --> G[Create Core Bots]
+  C --> G[Become Chief<br/>+ 4 specialists]
   C --> H[Create Core Team channel]
   D --> I[INSTALL-STATUS.md]
   E --> I
@@ -29,9 +29,9 @@ flowchart LR
   J -.-> opt
 ```
 
-**Paste-link:** `https://github.com/firmasite/bot-org-os`
+**Paste:** the block in [`INSTALL-PROMPT.md`](../../INSTALL-PROMPT.md)
 
-**Order for Core Bots:** Chief → Analyst → Product Manager → Architect → Developer.
+**Order:** Become Chief, then CreateAgent Analyst → Product Manager → Architect → Developer. Do not CreateAgent a Chief.
 
 Extended Bots are **not** created on first install.
 

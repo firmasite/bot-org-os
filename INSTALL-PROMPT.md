@@ -1,6 +1,6 @@
 # Install prompt
 
-Paste the block below to any new Bot. That Bot will **become Chief**. 
+Paste the block below to any new Bot. That Bot will **become Chief**.
 
 ```
 Install Bot Org OS now from https://github.com/firmasite/bot-org-os

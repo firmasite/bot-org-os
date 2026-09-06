@@ -6,7 +6,8 @@ You do not need other docs to understand the idea.
 
 **Product name:** Bot Org OS  
 **Repo slug:** `bot-org-os`  
-**Paste-link install:** `https://github.com/firmasite/bot-org-os`
+**Install:** copy [`INSTALL-PROMPT.md`](../INSTALL-PROMPT.md) into a new Bot.  
+**Repo:** `https://github.com/firmasite/bot-org-os`
 
 This template is for use with Grok Bot. It is not affiliated with SpaceXAI and is not an official product.
 
@@ -17,9 +18,9 @@ This template is for use with Grok Bot. It is not affiliated with SpaceXAI and i
 Bot Org OS is a **public template**.
 It is a set of folders, role contracts, Skills stubs, and playbooks.
 
-You paste the repo URL into a Bot.
+You paste [`INSTALL-PROMPT.md`](../INSTALL-PROMPT.md) into a Bot.
 That Bot will **become Chief**. It reads `AGENTS.md` and `BOOTSTRAP.md` and installs the org layout.
-**Linking is the install trigger.**
+**Pasting INSTALL-PROMPT is the install trigger.** A bare GitHub link is not enough.
 
 After install you get:
 
@@ -139,13 +140,14 @@ Chief collects HANDOFFs. If Action is PENDING, work stops until you approve.
 
 ---
 
-## Paste-link install
+## Paste-prompt install
 
-1. Send this URL to any Bot that can create agents and install Skills:  
-   `https://github.com/firmasite/bot-org-os`
+1. Copy the block in [`INSTALL-PROMPT.md`](../INSTALL-PROMPT.md) into any new Bot that can create agents and install Skills.
 2. That Bot will **become Chief**. It reads `AGENTS.md` and runs `BOOTSTRAP.md` **now**. Do not CreateAgent a duplicate Chief.
 3. Success = this Bot is Chief + four specialists + Skills + playbooks on the bus + Core Team channel + `workspace/org/INSTALL-STATUS.md` + a beginner welcome.
 4. First chat is guided: introduce yourself as Chief, what exists, Pin tip, warm close — not a routing menu.
+
+A bare GitHub URL is **not** enough. Blank Bots do not open `AGENTS.md` by themselves.
 
 See diagram: [install-flow.md](diagrams/install-flow.md).  
 Manual fallback (tools missing): [QUICKSTART.md](QUICKSTART.md).
@@ -169,7 +171,7 @@ Do **not** hire a new Bot or create a Routine on the first job.
 | Diagram | Shows |
 |---------|--------|
 | [roster-map.md](diagrams/roster-map.md) | Core Team + Extended idle |
-| [install-flow.md](diagrams/install-flow.md) | Paste URL → Bootstrap → Bots / Skills / folders |
+| [install-flow.md](diagrams/install-flow.md) | Paste INSTALL-PROMPT → Bootstrap → Chief + specialists |
 | [artifact-bus.md](diagrams/artifact-bus.md) | Phases + HANDOFF loop |
 
 ---

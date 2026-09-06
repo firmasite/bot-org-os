@@ -18,11 +18,11 @@ Prefer Context7 over HTTP with no account. Do not install Context7 MCP unless th
    ```
    Copy `id` exactly. Use `totalTokens` and `trustScore` to choose. Do not invent an id.
 
-2. **Fetch docs to a scratch file** under `/workspace/` (never under skill folders):
+2. **Fetch docs to a scratch file** under the workspace (never under skill folders). The Context7 library `id` starts with `/` (example `/facebook/react`):
    ```bash
-   curl -s "https://context7.com<id>/llms.txt?topic=<topic>&tokens=100000" -o <file>
+   curl -s "https://context7.com${ID}/llms.txt?topic=<topic>&tokens=100000" -o <file>
    ```
-   Always pass `topic`. Prefer two narrow topics over one wide dump.
+   Always pass `topic`. Prefer two narrow topics over one wide dump. If Context7 fails or the file is empty, use the package's official docs for the installed version.
 
 3. **Read or `rg` the file.** Do not dump the whole doc into chat.
 

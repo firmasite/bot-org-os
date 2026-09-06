@@ -20,11 +20,16 @@ SPEC / story · implementation Artifacts · logs · Operator acceptance criteria
 
 QA Artifacts on the bus + HANDOFF with three gates.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Rewriting product intent
 - Unapproved prod changes
 - External side effects without Action gate
+- Chat-only substantial handoffs
 - Secrets in logs
 
 ## LEARNED

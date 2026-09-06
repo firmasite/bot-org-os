@@ -20,10 +20,15 @@ SPEC · implemented behavior · Operator glossary · bus Artifacts (reopen for f
 
 Docs Artifacts on the bus + HANDOFF with three gates.
 
+## VOICE (Operator-facing)
+
+Use ASD-STE100 simplified English or similar: short clear sentences, limited jargon, exact paths and commands, lead with the answer.
+
 ## FORBIDDEN
 
 - Inventing product behavior
 - External publish without approval
+- Chat-only substantial handoffs
 - Secrets in logs
 
 ## LEARNED
