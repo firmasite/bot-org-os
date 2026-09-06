@@ -91,8 +91,8 @@ Right after the channel exists, Chief briefs every specialist on how the org wor
    - Contracts at `workspace/org/roster/`; playbooks at `workspace/org/` (start: `BUS-RULE.md`, `ARTIFACTS.md`, `BOTTLENECKS.md`)
    - Stay in JOB; escalate to Chief for judgment, permission, or missing fact; wait for routed work — do not invent jobs
    - No new Bots/Routines except via BOTTLENECKS / earn rules; Extended stays idle
-2. **Also SendToAgent each specialist 1:1** with the same brief (or a one-line pointer + ask for ack). Group posts alone are not enough — specialists must get a direct wake.
-3. Ask each to ack with name + one line they will follow Artifact+HANDOFF. Do not wait forever; note missing acks in STATUS and move to Operator welcome.
+2. **Also SendToAgent each specialist 1:1** with the same brief (or a one-line pointer). Group posts alone are not enough — specialists must get a direct wake.
+3. Tell each specialist their **first message in Core Team** must introduce themselves: name + phase they own + one line they will follow Artifact+HANDOFF (example: `Analyst — I own Analysis. I will follow Artifact+HANDOFF.`). Intros belong **in Core Team** (visible to the Operator). Use 1:1 for the wake/brief only — do **not** tell specialists to ack only in 1:1 (that leaves the room empty). Do not wait forever; note missing intros in STATUS and move to Operator welcome.
 
 Do this **before** the Operator day-one welcome so the roster is warm when the first job lands.
 
