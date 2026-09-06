@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Bot Org OS artifact bus",
+    "animation": "trace",
+    "visual_preset": "signal-flow",
+    "quality_profile": "standard",
+    "output": "artifact-bus.html"
+  },
+  "lanes": [
+    { "id": "human", "label": "Operator" },
+    { "id": "chief", "label": "Chief" },
+    { "id": "phase", "label": "Phase owner" },
+    { "id": "bus", "label": "Bus" }
+  ],
+  "phases": [
+    { "id": "ask", "label": "Ask", "fromCol": 0, "toCol": 0 },
+    { "id": "do", "label": "Do", "fromCol": 1, "toCol": 2 },
+    { "id": "close", "label": "Close", "fromCol": 3, "toCol": 5 }
+  ],
+  "mainPath": ["intent", "route", "work", "artifact", "handoff", "collect"],
+  "nodes": [
+    { "id": "intent", "lane": "human", "col": 0, "type": "external", "label": "Ask", "width": 100 },
+    { "id": "route", "lane": "chief", "col": 1, "type": "backend", "label": "Assign", "sublabel": "one owner", "width": 110 },
+    { "id": "work", "lane": "phase", "col": 2, "type": "backend", "label": "Phase work", "width": 120 },
+    { "id": "artifact", "lane": "bus", "col": 3, "type": "database", "label": "Artifact", "sublabel": "workspace/phase", "width": 130 },
+    { "id": "handoff", "lane": "bus", "col": 4, "type": "database", "label": "HANDOFF", "sublabel": "3 gates", "width": 110 },
+    { "id": "collect", "lane": "chief", "col": 5, "type": "backend", "label": "Collect", "sublabel": "ACTION_LOG", "width": 120 },
+    { "id": "gate", "lane": "human", "col": 5, "type": "security", "label": "Action gate", "sublabel": "if needed", "width": 120 }
+  ],
+  "edges": [
+    { "id": "e1", "from": "intent", "to": "route", "variant": "emphasis" },
+    { "id": "e2", "from": "route", "to": "work", "variant": "emphasis" },
+    { "id": "e3", "from": "work", "to": "artifact" },
+    { "id": "e4", "from": "artifact", "to": "handoff" },
+    { "id": "e5", "from": "handoff", "to": "collect", "variant": "emphasis" },
+    { "id": "e6", "from": "collect", "to": "gate", "variant": "security", "role": "branch" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Close needs", "items": ["Artifact path", "HANDOFF three gates", "Chat is not the bus"] },
+    { "dot": "rose", "title": "Gates", "items": ["Source", "Evidence", "Action"] }
+  ]
+}

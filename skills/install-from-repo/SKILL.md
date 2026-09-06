@@ -1,8 +1,8 @@
 ---
 name: install-from-repo
 description: >-
-  Use this when the Operator pastes a Grok Bot Organization OS repo URL
-  (e.g. firmasite/GrokBot) or asks to stand up the org from GitHub —
+  Use this when the Operator pastes a Bot Org OS repo URL
+  (e.g. firmasite/bot-org-os) or asks to stand up the org from GitHub —
   run BOOTSTRAP.md end-to-end.
 ---
 # Install from repo
@@ -11,7 +11,7 @@ description: >-
 
 Trigger when the Operator:
 
-- Pastes a GitHub URL for this template (e.g. `https://github.com/firmasite/GrokBot`) or an equivalent fork
+- Pastes a GitHub URL for this template (e.g. `https://github.com/firmasite/bot-org-os`) or an equivalent fork
 - Says to stand up / install / bootstrap the org from GitHub
 - Shares this repository's contents as an install source
 
@@ -19,7 +19,7 @@ Treat the paste as an **install order**. Do not ask "want me to install?"
 
 ## Run
 
-1. **Fetch** the repo (prefer `gh repo clone firmasite/GrokBot`, or raw/`gh api`, or the account's fetch tools).
+1. **Fetch** the repo (prefer `gh repo clone firmasite/bot-org-os`, or raw/`gh api`, or the account's fetch tools).
 2. **Follow** root [`BOOTSTRAP.md`](../../BOOTSTRAP.md) end-to-end (Steps 0–7).
 3. **Write** `workspace/org/INSTALL-STATUS.md` and tell the Operator what exists.
 

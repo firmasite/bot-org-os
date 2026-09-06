@@ -4,7 +4,7 @@ Each folder is a Skill stub: `SKILL.md` with YAML frontmatter `name` + `descript
 
 ## Install
 
-**Preferred:** paste `https://github.com/firmasite/GrokBot` into any Grok Bot — Bootstrap installs every Skill (including `install-from-repo`).
+**Preferred:** paste `https://github.com/firmasite/bot-org-os` into any Bot — Bootstrap installs every Skill (including `install-from-repo`).
 
 Manual:
 

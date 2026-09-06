@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Bot Org OS roster map",
+    "animation": "trace",
+    "visual_preset": "signal-flow",
+    "quality_profile": "standard",
+    "output": "roster-map.html"
+  },
+  "lanes": [
+    { "id": "human", "label": "Operator" },
+    { "id": "core", "label": "Core Team" },
+    { "id": "ext", "label": "Extended idle" }
+  ],
+  "phases": [
+    { "id": "always", "label": "Always on", "fromCol": 0, "toCol": 3 },
+    { "id": "idle", "label": "Idle", "fromCol": 4, "toCol": 5, "variant": "dashed" }
+  ],
+  "mainPath": ["op", "chief", "specialists", "channel"],
+  "nodes": [
+    { "id": "op", "lane": "human", "col": 0, "type": "external", "label": "Operator", "width": 110 },
+    { "id": "chief", "lane": "core", "col": 1, "type": "backend", "label": "Chief", "sublabel": "route · collect", "width": 120 },
+    { "id": "specialists", "lane": "core", "col": 2, "type": "backend", "label": "Four specialists", "sublabel": "Analyst · PM · Arch · Dev", "width": 160 },
+    { "id": "channel", "lane": "core", "col": 3, "type": "backend", "label": "Core Team chat", "width": 120 },
+    { "id": "extpack", "lane": "ext", "col": 4, "type": "backend", "label": "UX · QA · Writer · Verifier", "sublabel": "wake via BOTTLENECKS", "width": 180 },
+    { "id": "note", "lane": "ext", "col": 5, "type": "external", "label": "Stay idle", "sublabel": "until bottleneck", "width": 120 }
+  ],
+  "edges": [
+    { "id": "e1", "from": "op", "to": "chief", "variant": "emphasis" },
+    { "id": "e2", "from": "chief", "to": "specialists", "variant": "emphasis" },
+    { "id": "e3", "from": "specialists", "to": "channel" },
+    { "id": "e4", "from": "chief", "to": "extpack", "variant": "dashed", "role": "branch" },
+    { "id": "e5", "from": "extpack", "to": "note", "variant": "dashed" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Core", "items": ["Always on", "Chief routes one owner", "Four phase specialists"] },
+    { "dot": "rose", "title": "Extended", "items": ["Idle until bottleneck", "Wake via BOTTLENECKS", "Do not CreateAgent early"] }
+  ]
+}

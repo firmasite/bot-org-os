@@ -1,16 +1,29 @@
-# Bot Org OS (public template)
+# Bot Org OS
 
-Reusable docs, contracts, Skills stubs, and folder layout for a **Chief + phase specialists** org on [Grok Bot](https://x.ai/news/designing-grok-bot).
+Public template: docs, contracts, Skills stubs, and folder layout for a **Chief + phase specialists** org.
 
-### Paste into Grok Bot
+For use with Grok Bot. Not affiliated with SpaceXAI / not an official product.
 
-Send this URL to any Grok Bot:
+### Begin here
+
+1. [docs/BEGINNER.md](docs/BEGINNER.md) — plain-language explainer  
+2. Diagrams: [roster-map](docs/diagrams/roster-map.md) · [install-flow](docs/diagrams/install-flow.md) · [artifact-bus](docs/diagrams/artifact-bus.md)
+
+### Paste to install
+
+Send this URL to any Bot that can create agents and install Skills:
 
 `https://github.com/firmasite/bot-org-os`
 
 That Bot should read [`AGENTS.md`](AGENTS.md) + [`BOOTSTRAP.md`](BOOTSTRAP.md) and install. **Linking is the install trigger.**
 
 Manual copy steps are only a fallback when CreateAgent / Skills tools are missing — see [`docs/QUICKSTART.md`](docs/QUICKSTART.md).
+
+
+## Optional tools
+
+Core install works without extra CLIs or connectors.
+See [docs/OPTIONAL-TOOLS.md](docs/OPTIONAL-TOOLS.md) for a checkbox list (Grok Build, `gh`, Cloud Agents, later connectors). Recommend only — never require.
 
 ---
 
@@ -25,8 +38,6 @@ Anyone should recreate similar structure:
 - **Shared-computer** hard limits
 
 ## Five primitives
-
-From [Designing Grok Bot](https://x.ai/news/designing-grok-bot):
 
 | Primitive | Meaning here | In this repo |
 |-----------|----------------|--------------|
@@ -88,9 +99,9 @@ Spend caution: token use and overage are real cost.
 ## Layout
 
 ```
-AGENTS.md      Install-now instructions for any Grok Bot
+AGENTS.md      Install-now instructions for any Bot
 BOOTSTRAP.md   Executable install runbook
-docs/          Playbooks + templates
+docs/          Playbooks + templates + beginner guide + diagrams
 roster/        Bot contracts (core + extended)
 skills/        Skill stubs (YAML name + description)
 workspace/     Empty phase folders for Artifacts

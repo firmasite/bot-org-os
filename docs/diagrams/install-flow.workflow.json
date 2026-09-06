@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Bot Org OS install flow",
+    "animation": "trace",
+    "visual_preset": "signal-flow",
+    "quality_profile": "standard",
+    "output": "install-flow.html"
+  },
+  "lanes": [
+    {
+      "id": "human",
+      "label": "Operator"
+    },
+    {
+      "id": "bot",
+      "label": "Installing Bot"
+    },
+    {
+      "id": "bus",
+      "label": "Artifacts bus"
+    }
+  ],
+  "phases": [
+    {
+      "id": "paste",
+      "label": "Paste",
+      "fromCol": 0,
+      "toCol": 0
+    },
+    {
+      "id": "boot",
+      "label": "Bootstrap",
+      "fromCol": 1,
+      "toCol": 3
+    },
+    {
+      "id": "done",
+      "label": "Status",
+      "fromCol": 4,
+      "toCol": 4
+    }
+  ],
+  "mainPath": [
+    "url",
+    "agents",
+    "bots",
+    "status"
+  ],
+  "nodes": [
+    {
+      "id": "url",
+      "lane": "human",
+      "col": 0,
+      "type": "external",
+      "label": "Paste URL",
+      "sublabel": "bot-org-os",
+      "width": 120
+    },
+    {
+      "id": "agents",
+      "lane": "bot",
+      "col": 1,
+      "type": "backend",
+      "label": "AGENTS + BOOTSTRAP",
+      "sublabel": "install now",
+      "width": 150
+    },
+    {
+      "id": "folders",
+      "lane": "bus",
+      "col": 2,
+      "type": "database",
+      "label": "workspace/",
+      "sublabel": "phase folders",
+      "width": 120
+    },
+    {
+      "id": "skills",
+      "lane": "bot",
+      "col": 2,
+      "type": "backend",
+      "label": "Skills",
+      "sublabel": "library",
+      "width": 100
+    },
+    {
+      "id": "bots",
+      "lane": "bot",
+      "col": 3,
+      "type": "backend",
+      "label": "Core Bots",
+      "sublabel": "+ Core Team",
+      "width": 120
+    },
+    {
+      "id": "status",
+      "lane": "bus",
+      "col": 4,
+      "type": "database",
+      "label": "INSTALL-STATUS",
+      "sublabel": "then tell Operator",
+      "width": 140
+    },
+    {
+      "id": "opt",
+      "lane": "human",
+      "col": 4,
+      "type": "external",
+      "label": "Optional tools",
+      "sublabel": "Build \u00b7 gh \u00b7 Cloud",
+      "width": 140
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "url",
+      "to": "agents",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e2",
+      "from": "agents",
+      "to": "folders",
+      "variant": "dashed",
+      "role": "branch"
+    },
+    {
+      "id": "e3",
+      "from": "agents",
+      "to": "skills",
+      "variant": "dashed",
+      "role": "branch"
+    },
+    {
+      "id": "e4",
+      "from": "agents",
+      "to": "bots",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e5",
+      "from": "folders",
+      "to": "status",
+      "variant": "dashed"
+    },
+    {
+      "id": "e6",
+      "from": "skills",
+      "to": "status",
+      "variant": "dashed"
+    },
+    {
+      "id": "e7",
+      "from": "bots",
+      "to": "status",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e8",
+      "from": "status",
+      "to": "opt",
+      "variant": "dashed",
+      "role": "branch"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Trigger",
+      "items": [
+        "Paste GitHub URL",
+        "Linking installs",
+        "No second go-ahead"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Skip on day one",
+      "items": [
+        "No Extended Bots",
+        "No Routines",
+        "No hire without bottleneck"
+      ]
+    }
+  ]
+}

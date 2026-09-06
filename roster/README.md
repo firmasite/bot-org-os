@@ -13,4 +13,4 @@ Bootstrap creates Core from these files in order: Chief → Analyst → Product 
 | [developer.md](developer.md) | Implementation phase |
 | [extended/](extended/) | UX Designer, QA, Tech Writer, Verifier |
 
-Paste each contract into the matching Grok Bot (or let Bootstrap / CreateAgent do it). Keep JOB to one lane.
+Paste each contract into the matching Bot (or let Bootstrap / CreateAgent do it). Keep JOB to one lane.

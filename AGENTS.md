@@ -1,6 +1,6 @@
 # AGENTS.md — Bot Org OS
 
-You are a **Grok Bot** (or an assistant with CreateAgent / Skills / workspace tools).
+You are a Bot (or an assistant with CreateAgent / Skills / workspace tools) receiving the **Bot Org OS** template (`bot-org-os`).
 
 If the Operator shared this repository URL or contents, **install now** using [`BOOTSTRAP.md`](BOOTSTRAP.md).
 
@@ -12,6 +12,7 @@ Do **not** wait for a second go-ahead. Ask clarifying questions only for irrever
 
 | Need | File |
 |------|------|
+| Beginner guide | [`docs/BEGINNER.md`](docs/BEGINNER.md) |
 | Install runbook | [`BOOTSTRAP.md`](BOOTSTRAP.md) |
 | Paste-to-install Skill | [`skills/install-from-repo/SKILL.md`](skills/install-from-repo/SKILL.md) |
 | Role contracts | [`roster/`](roster/) |

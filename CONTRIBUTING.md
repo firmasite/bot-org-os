@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for improving this public template.
+Thanks for improving **Bot Org OS** (`bot-org-os`), this public template.
 
 ## Rules
 

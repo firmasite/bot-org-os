@@ -1,8 +1,10 @@
 # Quick start
 
+New to this template? Read [BEGINNER.md](BEGINNER.md) and the [diagrams](diagrams/) first.
+
 ## Preferred path — paste the repo link
 
-Send this URL to any Grok Bot:
+Send this URL to any Bot that can create agents and install Skills:
 
 `https://github.com/firmasite/bot-org-os`
 
