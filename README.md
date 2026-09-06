@@ -39,7 +39,6 @@ flowchart LR
   EX -.-> IDLE[Stay idle<br/>until bottleneck]
 ```
 
-Archify HTML: [`docs/diagrams/roster-map.html`](docs/diagrams/roster-map.html)
 
 ---
 
@@ -63,7 +62,6 @@ flowchart LR
   I -.-> O[Optional tools<br/>Build · gh · Cloud]
 ```
 
-Archify HTML: [`docs/diagrams/install-flow.html`](docs/diagrams/install-flow.html)
 
 ---
 
@@ -87,7 +85,6 @@ flowchart LR
   COL -.->|if needed| GATE[Action gate]
 ```
 
-Archify HTML: [`docs/diagrams/artifact-bus.html`](docs/diagrams/artifact-bus.html)
 
 ---
 
@@ -120,7 +117,7 @@ Spend caution: token use and overage are real cost.
 - [`AGENTS.md`](AGENTS.md) — install-now for Bots
 - [`BOOTSTRAP.md`](BOOTSTRAP.md) — executable install runbook
 - [`roster/`](roster/) — role contracts
-- [`docs/`](docs/) — playbooks + Archify diagram sources
+- [`docs/`](docs/) — playbooks (maintainers: Archify sources under docs/diagrams/)
 
 ## License
 
